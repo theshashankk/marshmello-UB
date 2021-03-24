@@ -10,13 +10,13 @@ NAME = os.environ.get("BOT_NICK_NAME")
 BOT =  = str(NAME) if NAME else "BLACK LIGHTNING"
 #op for keinshin
 
-Keinshin = "[KEINSHIN](https://t.me/keinshin)"
-OP = "[BLACK LIGHTNING](https://github.com/KeinShin/Black-Lightning)"
+Keinshin = "[Sʜᴀsʜᴀɴᴋ](https://t.me/theshashank)"
+OP = "[Mᴀʀsʜᴍᴇʟʟᴏ](https://github.com/theshashankk/marshmello-UB)"
 OKAY = "[SUPPORT GROUP](https://t.me/LIGHTINGSUPPORT)"
 #itna test h aur aage krte h
 #test successful raha ab aage 
-ALIVE = "BLACK LIGHTNING BOT IS ON 🔥 FIRE 🔥" #make by LEGENDX22 for black lightning
-USERBOT = " HELLO MASTER MY NAME IS BLACK LIGHTNING BOT I AM A BEST USERBOT 💝"
+ALIVE = "Mᴀʀsʜᴍᴇʟʟᴏ UB ɪs Oɴ 🔥 Fɪʀᴇ 🔥" #make by LEGENDX22 for black lightning
+USERBOT = " Hᴇʏʏ ᴊᴀɴᴇᴍᴏɴ Mʏ Nᴀᴍᴇ Mᴀʀsʜᴍᴇʟʟᴏ ʙᴏᴛ ɪ ᴀᴍ ᴀ Nxᴛ Lᴠʟ UB💝"
 EMOJI = "⚡"
 #yrr isko apne bot me aply krne se pehle mere se pooch lena ok
 #aur aage add kruga abhi busy okay 🤔
