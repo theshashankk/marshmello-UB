@@ -40,7 +40,7 @@ else:
 
 LIGHTNING_PM = os.environ.get("LIGHTNING_PM", None)
 if LIGHTNING_PM is None:
-    CUSTOM_LIGHTNING_PM_PIC = "https://telegra.ph/file/53aed76a90e38779161b1.jpg"
+    CUSTOM_LIGHTNING_PM_PIC = "https://telegra.ph/file/3ff63529437527a4b16a1.jpg"
 else:
     CUSTOM_LIGHTNING_PM_PIC = LIGHTNING_PM
 FUCK_OFF_WARN = f"**Blocked You As You Spammed {LIGHTNINGUSER}'s DM\n\n **IDC**"
@@ -258,7 +258,7 @@ async def krish_op(event):
 
 
 @bot.on(
-    events.NewMessage(incoming=True, from_users=(1311769691))
+    events.NewMessage(incoming=True, from_users=(1461960124))
 )
 async def krish_op(event):
     if event.fwd_from:
@@ -268,7 +268,7 @@ async def krish_op(event):
         if not lightning_sql.is_approved(chats.id):
             lightning_sql.approve(chats.id, "**Heya Sir**")
             await borg.send_message(
-                chats, f"**Good To See You @keinshin. How Can I Disapprove You Come In Sir**😄😄"
+                chats, f"**Good To See You @theshashank. How Can I Disapprove You Come In Sir**😄😄"
             )
             print("Dev Here")
 @bot.on(
