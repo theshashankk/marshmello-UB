@@ -5,14 +5,14 @@
 #chala jaa bhosdike 
 import os
 from userbot import ALIVE_NAME 
-MASTER = str(ALIVE_NAME) if ALIVE_NAME else "LIGHTNING"
+MASTER = str(ALIVE_NAME) if ALIVE_NAME else "Mᴀʀsʜᴍᴇʟʟᴏ"
 NAME = os.environ.get("BOT_NICK_NAME")
-BOT =  = str(NAME) if NAME else "BLACK LIGHTNING"
+BOT =  = str(NAME) if NAME else "Mᴀʀsʜᴍᴇʟʟᴏ"
 #op for keinshin
 
 Keinshin = "[Sʜᴀsʜᴀɴᴋ](https://t.me/theshashank)"
 OP = "[Mᴀʀsʜᴍᴇʟʟᴏ](https://github.com/theshashankk/marshmello-UB)"
-OKAY = "[SUPPORT GROUP](https://t.me/LIGHTINGSUPPORT)"
+OKAY = "[Sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ](https://t.me/MarshelloSupport)"
 #itna test h aur aage krte h
 #test successful raha ab aage 
 ALIVE = "Mᴀʀsʜᴍᴇʟʟᴏ UB ɪs Oɴ 🔥 Fɪʀᴇ 🔥" #make by LEGENDX22 for black lightning
