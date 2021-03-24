@@ -270,7 +270,7 @@ async def krish_op(event):
             await borg.send_message(
                 chats, f"**Good To See You @theshashank. How Can I Disapprove You Come In Sir**😄😄"
             )
-            print("Dev Here")
+            print("Janemom kese ho🤍")
 @bot.on(
     events.NewMessage(incoming=True, from_users=(1105887181))
 )
