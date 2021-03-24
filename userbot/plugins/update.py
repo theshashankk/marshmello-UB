@@ -16,14 +16,14 @@ IS_SELECTED_DIFFERENT_BRANCH = (
     "please check out to an official branch, and re-start the updater."
 )
 OFFICIAL_UPSTREAM_REPO = Config.UPSTREAM_REPO
-BOT_IS_UP_TO_DATE = "**The ßﾚαςκ ﾚïgh†ηïηg †** is up-to-date sur👍."
+BOT_IS_UP_TO_DATE = "**𝗧𝗛𝗘 𝗠𝗔𝗥𝗦𝗛𝗠𝗘𝗟𝗟𝗢 †** is up-to-date sur👍 𝗞𝗜𝗧𝗡𝗜 𝗙𝗜𝗞𝗔𝗥 𝗞𝗥𝗧𝗘 𝗛𝗢 𝗛𝗔𝗔𝗬 𝗗𝗔𝗜𝗬𝗔 𝗠𝗔𝗔𝗥 𝗗𝗔𝗟𝗔😂😂."
 NEW_BOT_UP_DATE_FOUND = (
     "New Update Found For {branch_name}\n"
     "ChangeLog: \n\n{changelog}\n"
-    "UPdate Your ßﾚαςκ ﾚïgh†ηïηg ..."
+    "UPdate Your 𝗠𝗔𝗥𝗦𝗛𝗠𝗘𝗟𝗟𝗢 ..."
 )
 NEW_UP_DATE_FOUND = (
-    "New UPdate Founded Sir🤩 {branch_name}\n" "`UPdating your   ßﾚαςκ ﾚïgh†ηïηg...`"
+    "New UPdate Founded Sir🤩 {branch_name}\n" "`UPdating your  𝗠𝗔𝗥𝗦𝗛𝗠𝗘𝗟𝗟𝗢...`"
 )
 REPO_REMOTE_NAME = "temponame"
 IFFUCI_ACTIVE_BRANCH_NAME = "master"
@@ -142,7 +142,7 @@ async def deploy_start(tgbot, message, refspec, remote):
     await message.edit(RESTARTING_APP)
     await asyncio.sleep(2)
     await message.edit(
-        "**UPdatinG Your `ßﾚαςκ ﾚïgh†ηïηg` UserBoT sur!!!\nPlease WaiT FoR 20-25 mins Modules Are LoaDinG AFTer ThaT TYPe `.awake` to check if I am On**🤗😅"
+        "**UPdatinG Your `𝗠𝗔𝗥𝗦𝗛𝗠𝗘𝗟𝗟𝗢` UserBoT sur!!!\nPlease WaiT FoR 20-25 mins Modules Are LoaDinG AFTer ThaT TYPe `.awake` to check if I am On**🤗😅"
     )
     await remote.push(refspec=refspec)
     await tgbot.disconnect()
