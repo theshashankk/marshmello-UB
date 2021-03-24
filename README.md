@@ -1,7 +1,7 @@
 
 <h2 align="center"><b>Owner: <a href="https://telegram.dog/TheShashank">𝐒𝐀𝐕𝐀𝐆𝐄 | 𝗦𝗛𝗔𝗦𝗛𝗔𝗡𝗞 ▄︻♛一𝚃𝙴𝙰𝙼一𝙹𝚄𝚂𝚃𝙸𝙲𝙴一♛ 𒆜𓊈【L⚔️F】𓊉𒆜 #𝘽𝙇𝘼𝘾𝙆𝙇𝙄𝙎𝙏 ╚»★𝙎𝙒𝘼𝙍𝙂✘𝙁𝙄𝙂𝙃𝙏𝙀𝙍𝙎★«╝</a></b></h2>
 <br>
-<p align="center"><a href="https://t.me/lightningsupport"><img src="https://telegra.ph/file/07d55d71944a852ac6d5e.jpg"></a></p> 
+<p align="center"><a href="https://t.me/lightningsupport"><img src="https://telegra.ph/file/4aa29cd8d768f739cf19b.jpg"></a></p> 
 </p>
 <h1>BLACK LIGHTNING</h1>
 <b>A Powerful, Smart And Simple Userbot In Telethon.</b>
