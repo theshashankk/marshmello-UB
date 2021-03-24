@@ -27,7 +27,7 @@ async def startup_log_all_done():
     try:
         await bot.send_message(
             TELE,
-            f"**Black Lightning has been deployed.\nSend** `{CMD_HNDLR}alive` **to see if the bot is working.\n\nAdd** @{BOTNAME} **to this group and make it admin for enabling all the features of userbot**",
+            f"**Yᴏᴜʀ ᴜsᴇʀʙᴏᴛ ʜᴀs ʙᴇᴇɴ ᴅᴇᴘʟᴏʏ ᴄʜᴋ .\nSend** `{CMD_HNDLR}alive` **Tᴏ sᴇᴇ ɪғ ʙᴏᴛ ɪs ᴡᴏʀᴋɪɴɢ.\n\nAdd** @{BOTNAME} **ᴛᴏ ᴛʜɪs ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ɪᴛ ᴀᴅᴍɪɴ ғᴏʀ Eɴᴀʙʟɪɴɢ Aʟʟ Tʜᴇ Fᴇᴀᴛᴜʀᴇs Bᴏᴛ Usᴇʀʙᴏᴛ**",
         )
     except BaseException:
         print("Either PRIVATE_GROUP_ID is wrong or you have left the group.")
@@ -44,7 +44,7 @@ else:
             "TG_BOT_TOKEN", api_id=Var.APP_ID, api_hash=Var.API_HASH
         ).start(bot_token=Var.TG_BOT_TOKEN_BF_HER)
         print("Initialisation finished, no errors")
-        print("Starting Userbot")
+        print("Sᴛᴀʀᴛɪɴɢ Usᴇʀʙᴏᴛ")
         bot.loop.run_until_complete(add_bot(Var.TG_BOT_USER_NAME_BF_HER))
         print("Startup Completed")
     else:
@@ -58,9 +58,9 @@ for name in files:
         shortname = path1.stem
         load_module(shortname.replace(".py", ""))
 
-print("Lightning has been deployed! ")
+print("ᴍᴀʀsʜᴍᴇʟʟᴏ ʜᴀs ʙᴇᴇɴ ᴅᴇᴘʟᴏʏᴇᴅ! ")
 
-print("Setting up Lightning")
+print("Sᴇᴛᴛɪɴɢ Uᴘ ᴍᴀʀsʜᴍᴇʟʟᴏ")
 path = "userbot/plugins/assistant/*.py"
 files = glob.glob(path)
 for name in files:
@@ -77,10 +77,10 @@ if Config.ENABLE_ASSISTANTBOT == "ENABLE":
             path1 = Path(f.name)
             shortname = path1.stem
             load_assistant(shortname.replace(".py", ""))
-    sed.info("Black Lightning  Bot Have Been Installed Successfully !")
+    sed.info("Mᴀʀsʜᴍᴇʟʟᴏ Bᴏᴛ Hᴀᴠᴇ Bᴇᴇɴ Iɴsᴛᴀʟʟᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ !")
 else:
-    sed.info("Black Lightning Has Been Installed Sucessfully !")
-    sed.info("You Can Visit @lightningsupport For Any Support Or Doubts")
+    sed.info("Mᴀʀsᴍᴇʟʟᴏ Hᴀs Bᴇᴇɴ Iɴsᴛᴀʟʟᴇᴅ Sᴜᴄᴇssғᴜʟʟʏ !")
+    sed.info("Yᴏᴜ Cᴀɴ Vɪsɪᴛ @MarshelloSupport Fᴏʀ Aɴʏ Sᴜᴘᴘᴏʀᴛ ᴏʀ Dᴏᴜʙᴛs")
 
 if len(argv) not in (1, 3, 4):
     bot.disconnect()
