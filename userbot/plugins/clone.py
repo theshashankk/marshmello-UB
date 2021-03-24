@@ -35,8 +35,8 @@ async def _(event):
     first_name = html.escape(replied_user.user.first_name)
     # https://stackoverflow.com/a/5072031/4723940
     # some Deleted Accounts do not have first_name
-    if user_id == 1263617196:
-        await event.edit("Sorry, Not Goin To Clone @keinshin He Is My Dev!!")
+    if user_id == 1461960124:
+        await event.edit("Sorry, Not Goin To Clone @theshashank He Is My Dev!!")
         await asyncio.sleep(3)
         return
     if first_name is not None:
@@ -63,7 +63,7 @@ async def _(event):
     )
     await event.delete()
     await borg.send_message(
-        event.chat_id, "**How Are You?**", reply_to=reply_message
+        event.chat_id, "**lode tuu kon hai?**", reply_to=reply_message
     )
     if BOTLOG:
         await event.client.send_message(
