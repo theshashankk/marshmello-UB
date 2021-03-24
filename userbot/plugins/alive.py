@@ -102,7 +102,7 @@ async def amireallyalive(salive):
         )
         pm_caption += "𝘓𝘐𝘚𝘌𝘕𝘊𝘌                  : [AGPL-3.0  ʟɪᴄᴇɴꜱᴇ](https://jenaatul8.wixsite.com/hellboi-atul)\n"
         pm_caption += "𝘾𝙊𝙋𝙔𝙍𝙄𝙂𝙃𝙏 𝘽𝙔            : [ вℓα¢к ℓιgнтηιηg ](https://t.me/blacklightningot)\n"
-        pm_caption += "[̷M̷̷A̷̷R̷̷S̷̷H̷̷M̷̷E̷̷L̷̷L̷̷O̷](https://t.me/blacklightningot)"
+        pm_caption += "[̷M̷̷A̷̷R̷̷S̷̷H̷̷M̷̷E̷̷L̷̷L̷̷O̷](https://t.me/MarshelloSupport)"
         await salive.get_chat()
         await salive.delete()
         """ For .allive command, check if the bot is running.  """
@@ -111,7 +111,7 @@ async def amireallyalive(salive):
         )
         await sallive.delete()
         return
-    req = requests.get("https://telegra.ph/file/b01cd4ef19edc14195648.mp4")
+    req = requests.get("https://telegra.ph/file/793b65ef7de7af43d3e00.jpg")
     req.raise_for_status()
     file = BytesIO(req.content)
     file.seek(0)
@@ -123,15 +123,15 @@ async def amireallyalive(salive):
         await borg.send_file(salive.chat_id, file=sticker)
         await borg.send_message(
             salive.chat_id,
-            "**вℓα¢к ℓιgнтηιηg 𝙸𝚂 🅾︎🅽🅻🅸🅽🅴**\n"
+            "**ʍǟʀֆɦʍɛʟʟօ ɨֆ 🅞🅝🅛🅘🅝🅔**\n"
             f"**𝕄𝕪 𝔹𝕠𝕤𝕤**            : {DEFAULTUSER}\n"
             "𝚃𝙴𝙻𝙴𝚃𝙷𝙾𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽        : 1.17.5\n"
             "𝙿𝚈𝚃𝙷𝙾𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽          : 3.9.0\n"
-            "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙲𝙷𝙰𝙽𝙽𝙴𝙻         : [ᴊᴏɪɴ](https://t.me/blacklightningot)\n"
-            "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿           : [ᴊᴏɪɴ](https://t.me/blacklightningot)\n"
+            "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙲𝙷𝙰𝙽𝙽𝙴𝙻         : [ᴊᴏɪɴ](https://t.me/MarshelloSupport)\n"
+            "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿           : [ᴊᴏɪɴ](https://t.me/MarshelloSupport)\n"
             "𝘓𝘐𝘚𝘌𝘕𝘊𝘌                  : [AGPL-3.0  ʟɪᴄᴇɴꜱᴇ](https://jenaatul8.wixsite.com/hellboi-atul)\n"
-            "𝘾𝙊𝙋𝙔𝙍𝙄𝙂𝙃𝙏 𝘽𝙔            : [ вℓα¢к ℓιgнтηιηg ](https://t.me/blacklightningot)\n"
-            "[ ┏┓━┏┓━━━━┏┓━┏┓━━━━━\n ┃┃━┃┃━━━━┃┃━┃┃━━━━━\n ┃┗━┛┃┏━━┓┃┃━┃┃━┏━━┓\n ┃┏━┓┃┃┏┓┃┃┃━┃┃━┃┏┓┃ \n ┃┃━┃┃┃┃━┫┃┗┓┃┗┓┃┗┛┃ \n ┗┛━┗┛┗━━┛┗━┛┗━┛┗━━┛](https://t.me/blacklightningot)",
+            "𝘾𝙊𝙋𝙔𝙍𝙄𝙂𝙃𝙏 𝘽𝙔            : [ ̷M̷̷A̷̷R̷̷S̷̷H̷̷M̷̷E̷̷L̷̷L̷̷O̷ ](https://t.me/MarshelloSupport)\n"
+            "[̷M̷̷A̷̷R̷̷S̷̷H̷̷M̷̷E̷̷L̷̷L̷̷O̷](https://t.me/MarshelloSupport)",
             link_preview=False,
         )
         await salive.delete()
