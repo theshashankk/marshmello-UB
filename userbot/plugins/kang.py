@@ -23,8 +23,8 @@ from userbot.Config import Var
 from userbot.utils import *
 
 KANGING_STR = [
-    "Using Witchery to kang this sticker...",
-    "Plagiarising hehe...",
+    "Upar dekh bandar😱 ur sticker in my pack ke andar...",
+    "udhar dekh bhalu sticker kanging chalu",
     "Inviting this sticker over to my pack...",
     "Kanging this sticker...",
     "Hey that's a nice sticker!\nMind if I kang?!..",
