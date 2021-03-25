@@ -16,7 +16,7 @@ from userbot.utils import lightning_cmd, edit_or_reply, sudo_cmd
 
 ALIVE_PIC = os.environ.get("ALIVE_PIC", None)
 if ALIVE_PIC is None:
-    PM_iMG = "https://telegra.ph/file/3ff63529437527a4b16a1.jpg"
+    PM_iMG = "https://telegra.ph/file/793b65ef7de7af43d3e00.jpg"
 else:
     PM_iMG = ALIVE_PIC
 
@@ -101,7 +101,7 @@ async def amireallyalive(salive):
             "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿           : [ᴊᴏɪɴ](https://t.me/MarshelloSupport)\n"
         )
         pm_caption += "𝘓𝘐𝘚𝘌𝘕𝘊𝘌                  : [AGPL-3.0  ʟɪᴄᴇɴꜱᴇ](https://jenaatul8.wixsite.com/hellboi-atul)\n"
-        pm_caption += "𝘾𝙊𝙋𝙔𝙍𝙄𝙂𝙃𝙏 𝘽𝙔            : [ вℓα¢к ℓιgнтηιηg ](https://t.me/blacklightningot)\n"
+        pm_caption += "𝘾𝙊𝙋𝙔𝙍𝙄𝙂𝙃𝙏 𝘽𝙔            : [ 𝗠𝗔𝗥𝗦𝗛𝗠𝗘𝗟𝗟𝗢 ](https://t.me/Marshmellosupport)\n"
         pm_caption += "[̷M̷̷A̷̷R̷̷S̷̷H̷̷M̷̷E̷̷L̷̷L̷̷O̷](https://t.me/MarshelloSupport)"
         await salive.get_chat()
         await salive.delete()
@@ -151,7 +151,7 @@ else:
 kraken = bot.uid
 
 
-pm_caption = "__**🔥🔥ɮʟǟƈӄ ʟɨɢɦȶռɨռɢ ɨs օռʟɨռɛ🔥🔥**__\n\n"
+pm_caption = "__**🔥🔥ʍǟʀֆɦʍɛʟʟօ ɨs օռʟɨռɛ🔥🔥**__\n\n"
 
 pm_caption += (
     f"               __↼🄼🄰🅂🅃🄴🅁⇀__\n**『[{DEFAULTUSER}](tg://user?id={kraken})』**\n\n"
@@ -159,15 +159,15 @@ pm_caption += (
 
 pm_caption += "🛡️TELETHON🛡️ : `1.15.0` \n"
 
-pm_caption += f"😈ɮʟǟƈӄ ʟɨɢɦȶռɨռɢ😈       : __**{hellversion}**__\n"
+pm_caption += f"😈ʍǟʀֆɦʍɛʟʟօ😈       : __**{hellversion}**__\n"
 
 pm_caption += f"⚜️Sudo⚜️            : `{sudou}`\n"
 
-pm_caption += "⚠️CHANNEL⚠️   : [ᴊᴏɪɴ](https://t.me/lightningsupport)\n"
+pm_caption += "⚠️CHANNEL⚠️   : [ᴊᴏɪɴ](https://t.me/Marshmellosupport)\n"
 
-pm_caption += "🔥CREATOR🔥    : [Nub Here](https://t.me/krish1303y)\n\n"
+pm_caption += "🔥CREATOR🔥    : [Nub Here](https://t.me/theshashank)\n\n"
 
-pm_caption += "    [✨REPO✨](https://github.com/KeinShin/Black-Lightningt) 🔹 [📜License📜](https://github.com/KeinShin/Black-Lightning/blob/master/LICENSE)"
+pm_caption += "    [✨REPO✨](https://github.com/theshashankk/marshmello-UB) 🔹 [📜License📜](https://github.com/theshashankk/marshmello-UB/blob/master/LICENSE)"
 
 
 @borg.on(lightning_cmd(outgoing=True, pattern="halive$"))
@@ -287,7 +287,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "@lightningsupport"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "@marshmellosupport"
 
 
 CMD_HELP.update(
