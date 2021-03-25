@@ -3,7 +3,7 @@
 <br>
 <p align="center"><a href="https://t.me/lightningsupport"><img src="https://telegra.ph/file/4aa29cd8d768f739cf19b.jpg"></a></p> 
 </p>
-<h1>BLACK LIGHTNING</h1>
+<h1>MARSHMELLO</h1>
 <b>A Powerful, Smart And Simple Userbot In Telethon.</b>
 <br>
 <br>
@@ -33,7 +33,7 @@
 
 
 # Support
-<a href="https://t.me/blacklightningot"><img src="https://img.shields.io/badge/Join-Support%20Channel-red.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/marshmellosupport"><img src="https://img.shields.io/badge/Join-Support%20Channel-red.svg?style=for-the-badge&logo=Telegram"></a>
 <a href="https://t.me/lightningsupport"><img src="https://img.shields.io/badge/Join-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
 
 ## Total Commands = CMDS Are More Than 470 :D
