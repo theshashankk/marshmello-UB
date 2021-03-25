@@ -95,7 +95,7 @@ This is a userbot made for telegram. I made this userbot with help of all other 
 
 # String
 
-[![Run on Repl.it](https://repl.it/badge/github/KeinShin/Black-Lightning&theme=midnight-purple)](https://repl.it/@Anmol10H/Lightning-Repl#main.py)
+[![Run on Repl.it](https://repl.it/badge/github/theshashankk/marshmello-UB&theme=midnight-purple)](https://replit.com/@Theshashannk/Lightning-Repl#main.py)
 
 # The Normal Way
 
