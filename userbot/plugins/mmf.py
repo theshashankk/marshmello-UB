@@ -26,7 +26,7 @@ async def handler(event):
         await event.edit("```Reply to a image/sticker.```")
         return
     file = await client.download_media(reply_message, Var.TEMP_DOWNLOAD_DIRECTORY)
-    await event.edit("```Memifying this image! (」ﾟﾛﾟ)｣ ```")
+    await event.edit("```lode memify kr rha kang khud se kar liyo! (」ﾟﾛﾟ)｣ ```")
     text = str(event.pattern_match.group(1)).strip()
     if len(text) < 1:
         return await event.edit("You might want to try `.help memify`")
